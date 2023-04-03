@@ -1,0 +1,236 @@
+/*h1
+{
+    background-color: #8d3427;
+    font-family: 'Pacifico', cursive !important;
+    color: white;
+    top: 0px;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    
+    width: 100%;
+    
+}*/
+
+/*body
+{
+    background-image: url("photoCuisine.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+   
+}*/
+
+
+
+/*Cela détermine l'écriture de police du nom du site*/
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Smooch+Sans:wght@800&display=swap');
+
+
+*
+{
+    margin:0;
+    padding:0;
+}
+
+
+
+
+#bouton1:checked
+{
+    background-color: #cf442f;
+}
+
+body
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: -15px;
+  
+    
+
+}
+
+	
+.colorffd
+{
+    background-color: #ffded7;
+}
+
+
+
+
+
+#nom,#HEntree {font-family: 'Pacifico', cursive ;}
+
+/*la couleur*/
+#recetteParCategorie,#nom,#connexion,#contact,#deconnexion,#boutonConnexion{color:white ;}
+
+/*pour la photo*/
+#photoDeCuisine
+{width: 100%;}
+
+/*cela c'est pour gérer la navbar*/
+#navbar
+{
+    background-color:#cf442f;
+  
+    z-index: 1;
+}
+
+.navbar
+{
+    position:fixed!important;
+    top:0px;
+    width:100%;
+    left:0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+   
+
+}
+
+/*ça c'est flexbox*/
+#gestionCarte
+{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    z-index:  0;
+    width:1000px;
+    margin:80px auto 20px;
+  
+}
+
+/*quand on passe la souris dessus*/
+
+   
+
+
+.classMenu:hover
+{
+    font-weight:bold;
+}
+
+/*a:hover
+{
+    font-weight:bold;
+}*/
+
+/*enlever le soulignage de lien*/
+a:link 
+{ 
+ text-decoration:none; 
+} 
+
+/*quand le lien a déjà été visiter*/
+a:visited
+{
+    color:black;
+}
+
+/*au niveau des cartes*/
+.card
+    {
+        margin-bottom: 5px;
+        border-color: #cf442f;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+      
+
+    }
+
+    .card-img-top ,.card
+    {
+       
+        border-top-left-radius:30px;
+        border-top-right-radius:30px; ;
+
+    }
+
+    #footer
+    {
+        background-color: #cf442f;
+        color:white;
+        margin:0;
+
+    }
+
+
+
+  
+
+    /*media queries*/
+ @media screen and (max-width: 1000px) 
+    {
+        #gestionCarte
+        {
+            width:auto;
+        }
+    }
+
+@media screen and (min-width: 1044px) and (max-width: 1177px)
+{
+    .input-group
+    {
+        width:300px !important;
+    }
+}
+
+
+@media screen and (min-width: 1077px) and (max-width: 1377px)
+{
+    .input-group
+    {
+        width:500px !important;
+    }
+}
+
+@media screen and (min-width: 1377px) 
+{
+    .input-group
+    {
+        width:700px !important;
+    }
+}
+
+@media screen and (min-width: 945px)  and (max-width: 1081px)
+{
+    #gestionCarte, #gestionCarte1
+    {
+        padding-top:5px !important;
+
+    }
+   
+}
+
+@media screen and (min-width: 581px)  and (max-width: 945px)
+{
+    #gestionCarte, #gestionCarte1
+    {
+        padding-top:10px !important;
+
+    }
+   
+}
+
+@media screen and (min-width: 200px)  and (max-width: 581px)
+{
+    #gestionCarte, #gestionCarte1
+    {
+        padding-top:20px !important;
+
+    }
+   
+}
+
+@media screen and (max-width: 989px)
+{
+    #nom
+    {
+        margin:0px auto 0px;
+        
+
+    }
+   
+}
